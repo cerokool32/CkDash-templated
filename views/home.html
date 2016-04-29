@@ -42,7 +42,7 @@
                 </ul>
 
             </div>
-
+            <!-- Sales Statistic Card -->
             <div class="card">
                 <div class="card-header">
                     <h2>Sales Statistics <small>Vestibulum purus quam scelerisque, mollis nonummy metus</small></h2>
@@ -85,6 +85,7 @@
                 </div>
             </div>
 
+            <!-- Segunda fila de tarjetas -->
             <div class="mini-charts">
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
@@ -289,18 +290,18 @@
                         <div class="card-body m-t-0">
                             <table class="table table-inner table-vmiddle">
                                 <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th style="width: 60px">Price</th>
-                                </tr>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th style="width: 60px">Price</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
-                                <tr data-ng-repeat="w in rictrl.riResult.list">
-                                    <td class="f-500 c-cyan">{{ w.id }}</td>
-                                    <td>{{ w.name }}</td>
-                                    <td class="f-500 c-cyan">{{ w.price }}</td>
-                                </tr>
+                                    <tr data-ng-repeat="w in rictrl.riResult.list">
+                                        <td class="f-500 c-cyan">{{ w.id }}</td>
+                                        <td>{{ w.name }}</td>
+                                        <td class="f-500 c-cyan">{{ w.price }}</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -370,7 +371,7 @@
                                     <label>
                                         <input type="checkbox">
                                         <i class="input-helper"></i>
-                                        <span>{{ w.todo }}</span>
+                                        <span>{{ w.todo }} todo</span>
                                     </label>
                                 </div>
                             </div>
